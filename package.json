@@ -30,12 +30,12 @@
       "react-app/jest"
     ]
   },
-  "browserslist": [
-  "last 1 version",
-  "> 1%",
-  "maintained node versions",
-  "not dead"
-],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
